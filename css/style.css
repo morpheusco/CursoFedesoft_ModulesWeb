@@ -1,0 +1,167 @@
+/* Estilos personalizados */
+
+#Logo {
+    width:200;
+    height: 50;
+}
+
+#MesaAtributos {
+    width: 100%;
+    height:700px;
+    vertical-align: bottom;
+    background-image: url(../images/modulos-4x2conf.cbb371ed.jpg)
+}
+
+.CirculoCentral{
+    background: #f7f8f9;
+    text-align: center;
+    border-radius: 100%;
+    border: 1px solid #43525A;
+    color: #43525A;
+    font-size: 1.0em;
+    height: 50px;
+    margin-left: 25%;
+    padding-top: 10px;
+    text-align: center;
+    top: 50%;
+    /* transform: translateY(-50%); */
+    width: 50px;
+    z-index: 4;
+ }
+
+.fondogris {
+    background-color: #F6F6F6;
+ }
+
+
+
+ .fondoblanco {
+    background-color: #fff;
+ }
+
+ .degradadoregla {
+    color:#fff;
+    background-image: linear-gradient(-90deg, #1ba5c0 0%, #0c6b8c 100%)
+ }
+
+
+
+
+ /* Inicio secciones */
+
+ .cabezote {
+    font-size: 1rem;
+    padding:30px 4px;
+ }
+
+ .cabezote a, a:link {
+    color:#43525A;
+ }
+
+ .hero {
+ 
+     color:#43525A;
+     font-weight: 300;
+     line-height: 160%;
+     margin:0 0 2rem;
+     overflow: hidden;
+     width: 100%;
+     height:700px;
+     vertical-align: bottom; 
+     background-color: #f2f2f2;
+ }
+
+ .hero h1 {
+    margin:0 0 1.4rem;
+    line-height: 3.85rem;
+    font-weight: 600;
+ }
+
+ .textohero {
+     margin-top:100px;
+     line-height: 3rem;
+ }
+
+ .surface {
+    color:#43525A;
+    font-weight: 300;
+    line-height: 160%;
+    width: 100%;
+ }
+
+ .SurfaceTexto {
+    padding: 40px;
+    margin-top:50px;
+ }
+
+.SuperPractical {
+    color:#43525A;
+    line-height: 200%;
+    margin:100px;
+}
+
+.SuperPractical .parrafo{
+    margin-bottom: 100px;
+}
+
+.SuperPractical h3 {
+    margin-top:15px;
+    font-weight: 600;
+}
+
+.MesaInteractiva {
+    z-index: -10;
+}
+
+.descuento {
+    color:#43525A;
+    font-weight: 300;
+    line-height: 160%;
+    width: 80%;
+    margin-left:10%;
+    padding:50px;
+    position:relative;
+    top:-120px;;
+    z-index: 9;
+}
+
+
+.descuento p {
+    margin-top: 30px;
+ }
+
+ .fondoambiental {
+    background-color: #beeadf;
+    color:#43525a;
+    padding: 100px 100px 0 100px ;
+}
+
+.fondoambiental img {
+    margin-bottom:-20px;
+}
+
+ .links_footer {
+    margin:40px 100px;
+ }
+
+.navegacion {
+    border-left: #6f8794 1px solid
+}
+
+
+.gris_footer{
+    color:#6f8794;
+}
+
+    .gris_footer .izq {
+        float: right;
+    }
+
+    .gris_footer .der {
+        float: left;
+    }
+
+    .gris_footer a, a:link {
+        color:#43525A;
+        font-size: 0.9rem;
+    }
