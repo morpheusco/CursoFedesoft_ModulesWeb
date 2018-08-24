@@ -1,18 +1,159 @@
 /* Estilos personalizados */
 
 #Logo {
-    width:200;
+    width: 200;
     height: 50;
 }
 
-#MesaAtributos {
-    width: 100%;
-    height:700px;
-    vertical-align: bottom;
-    background-image: url(../images/modulos-4x2conf.cbb371ed.jpg)
+
+.fondogris {
+    background-color: #F6F6F6;
 }
 
-.CirculoCentral{
+.fondoblanco {
+    background-color: #fff;
+}
+
+
+/* Inicio secciones */
+
+.cabezote {
+    font-size: 1rem;
+    padding: 30px 4px;
+    width: 100%;
+}
+
+.cabezote a,
+a:link {
+    color: #43525A;
+}
+
+.hero {
+    color: #43525A;
+    font-weight: 300;
+    line-height: 160%;
+    margin: 0 0 2rem;
+    overflow: hidden;
+    width: 100%;
+    height: 700px;
+    vertical-align: bottom;
+    background-color: #f2f2f2;
+}
+
+.hero h1 {
+    margin: 0 0 1.4rem;
+    line-height: 3.85rem;
+    font-weight: 600;
+}
+
+.textohero {
+    margin-top: 100px;
+    line-height: 3rem;
+}
+
+.surface {
+    color: #43525A;
+    font-weight: 300;
+    line-height: 160%;
+    width: 100%;
+}
+
+.SurfaceTexto {
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.SuperPractical {
+    color: #43525A;
+    line-height: 200%;
+    margin: 100px;
+}
+
+.SuperPractical .parrafo {
+    margin-bottom: 100px;
+}
+
+.SuperPractical h3 {
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.MesaInteractiva {
+    position:relative;
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/modulos-4x2conf.cbb371ed.jpg);
+}
+
+.BotonesFlotantes {
+    position:absolute;
+}
+
+.btn-circular {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+  }
+
+.btn-circular.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 35px;
+  }
+
+#botonF2 {
+    bottom:250px;
+    left:400px;    
+}
+
+#botonF3 {
+    bottom:250px;
+    right:400px;      
+}
+
+#botonF4 {
+    bottom:100px;
+    right:200px;          
+}
+
+#botonF5 {
+    bottom:80px;
+    left:80px;          
+}
+
+.descuento {
+    position:relative;
+    width: 80%;
+    margin-left: 10%;
+    top: -60px;
+    z-index: 9;
+}
+
+.cajasuperpuesta {
+    color: #43525A;
+    font-weight: 300;
+    line-height: 160%;
+    background-color: #fefefe;
+    padding:70px 15px;
+
+}
+
+.cajapatron {
+    width: 400px;
+    height: 200px;;
+    margin-left:30%;
+    background-image: url(../images/index.jpg);
+    background-size: 50px;
+}
+
+.CirculoCentral {
     background: #f7f8f9;
     text-align: center;
     border-radius: 100%;
@@ -27,141 +168,112 @@
     /* transform: translateY(-50%); */
     width: 50px;
     z-index: 4;
- }
-
-.fondogris {
-    background-color: #F6F6F6;
- }
-
-
-
- .fondoblanco {
-    background-color: #fff;
- }
-
- .degradadoregla {
-    color:#fff;
-    background-image: linear-gradient(-90deg, #1ba5c0 0%, #0c6b8c 100%)
- }
-
-
-
-
- /* Inicio secciones */
-
- .cabezote {
-    font-size: 1rem;
-    padding:30px 4px;
- }
-
- .cabezote a, a:link {
-    color:#43525A;
- }
-
- .hero {
- 
-     color:#43525A;
-     font-weight: 300;
-     line-height: 160%;
-     margin:0 0 2rem;
-     overflow: hidden;
-     width: 100%;
-     height:700px;
-     vertical-align: bottom; 
-     background-color: #f2f2f2;
- }
-
- .hero h1 {
-    margin:0 0 1.4rem;
-    line-height: 3.85rem;
-    font-weight: 600;
- }
-
- .textohero {
-     margin-top:100px;
-     line-height: 3rem;
- }
-
- .surface {
-    color:#43525A;
-    font-weight: 300;
-    line-height: 160%;
-    width: 100%;
- }
-
- .SurfaceTexto {
-    padding: 40px;
-    margin-top:50px;
- }
-
-.SuperPractical {
-    color:#43525A;
-    line-height: 200%;
-    margin:100px;
 }
-
-.SuperPractical .parrafo{
-    margin-bottom: 100px;
-}
-
-.SuperPractical h3 {
-    margin-top:15px;
-    font-weight: 600;
-}
-
-.MesaInteractiva {
-    z-index: -10;
-}
-
-.descuento {
-    color:#43525A;
-    font-weight: 300;
-    line-height: 160%;
-    width: 80%;
-    margin-left:10%;
-    padding:50px;
-    position:relative;
-    top:-120px;;
-    z-index: 9;
-}
-
 
 .descuento p {
     margin-top: 30px;
- }
+}
 
- .fondoambiental {
+.quality {
+    height: 560px;
+}
+
+.quality .textoquality {
+    padding:80px;
+    line-height: 150%;
+}
+
+.moduloizquierda {
+    width: 200px;
+    height: 412px;
+    background-image: url(../images/modulo-izquierda.png);
+    background-repeat: no-repeat;
+    
+}
+
+.moduloderecha {
+    width: 200px;
+    height: 412px;
+    background-image: url(../images/modulo-derecha.png);
+    background-repeat: no-repeat;
+    
+}
+
+.fondoconfigurador {
+    color: #fff;
+    width: 100%;
+    background-image: linear-gradient(-90deg, #1ba5c0 0%, #0c6b8c 100%)
+}
+
+.fondoconfigurador .texto {
+    padding:100px;
+    line-height: 200%
+}
+
+
+.newsletter {
+    padding: 90px 40px 40px 40px;
+}
+
+.galeria {
+    overflow: hidden;
+    margin:50px;
+}
+
+.galeria .centro {
+    width: 98%;
+    height: 98%;
+}
+
+.galeria .fotos {
+    width: 90%;
+    height: 90%;
+}
+
+.fondoambiental {
     background-color: #beeadf;
-    color:#43525a;
-    padding: 100px 100px 0 100px ;
+    color: #43525a;
+    padding: 100px 100px 0 100px;
+    width: 100%;
 }
 
 .fondoambiental img {
-    margin-bottom:-20px;
+    margin-bottom: -20px;
 }
 
- .links_footer {
-    margin:40px 100px;
- }
+.links_footer {
+    margin: 40px 100px;
+}
 
 .navegacion {
     border-left: #6f8794 1px solid
 }
 
-
-.gris_footer{
-    color:#6f8794;
+.gris_footer {
+    color: #6f8794;
 }
 
-    .gris_footer .izq {
-        float: right;
-    }
 
-    .gris_footer .der {
-        float: left;
-    }
+.gris_footer a,
+a:link {
+    color: #43525A;
+    font-size: 0.9rem;
+}
 
-    .gris_footer a, a:link {
-        color:#43525A;
-        font-size: 0.9rem;
-    }
+.cajamiembros {
+    color: #6f8794;
+    width: 100%;
+}
+
+.cajamiembros .izq {
+    float: right;
+}
+
+.cajamiembros .der {
+    float: left;
+}
+.copy {
+    width: 100%;
+    
+}
+
