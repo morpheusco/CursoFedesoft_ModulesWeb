@@ -5,7 +5,6 @@
     height: 50;
 }
 
-
 .fondogris {
     background-color: #F6F6F6;
 }
@@ -13,7 +12,6 @@
 .fondoblanco {
     background-color: #fff;
 }
-
 
 /* Inicio secciones */
 
@@ -26,6 +24,10 @@
 .cabezote a,
 a:link {
     color: #43525A;
+}
+
+.navOculta {
+    display: none;
 }
 
 .hero {
@@ -78,14 +80,18 @@ a:link {
 }
 
 .MesaInteractiva {
-    position:relative;
+    position: relative;
     width: 100%;
     height: 700px;
     background-image: url(../images/modulos-4x2conf.cbb371ed.jpg);
 }
 
+.sombra {
+    filter: drop-shadow(0 20px 10px #888);
+}
+
 .BotonesFlotantes {
-    position:absolute;
+    position: absolute;
 }
 
 .btn-circular {
@@ -96,7 +102,7 @@ a:link {
     font-size: 12px;
     line-height: 1.428571429;
     border-radius: 15px;
-  }
+}
 
 .btn-circular.btn-xl {
     width: 70px;
@@ -105,30 +111,30 @@ a:link {
     font-size: 24px;
     line-height: 1.33;
     border-radius: 35px;
-  }
+}
 
 #botonF2 {
-    bottom:250px;
-    left:400px;    
+    bottom: 250px;
+    left: 400px;
 }
 
 #botonF3 {
-    bottom:250px;
-    right:400px;      
+    bottom: 250px;
+    right: 400px;
 }
 
 #botonF4 {
-    bottom:100px;
-    right:200px;          
+    bottom: 100px;
+    right: 200px;
 }
 
 #botonF5 {
-    bottom:80px;
-    left:80px;          
+    bottom: 80px;
+    left: 80px;
 }
 
 .descuento {
-    position:relative;
+    position: relative;
     width: 80%;
     margin-left: 10%;
     top: -60px;
@@ -140,14 +146,14 @@ a:link {
     font-weight: 300;
     line-height: 160%;
     background-color: #fefefe;
-    padding:70px 15px;
-
+    padding: 70px 15px;
 }
 
 .cajapatron {
     width: 400px;
-    height: 200px;;
-    margin-left:30%;
+    height: 200px;
+    ;
+    margin-left: 30%;
     background-image: url(../images/index.jpg);
     background-size: 50px;
 }
@@ -179,13 +185,13 @@ a:link {
 }
 
 .quality .textoquality {
-    padding:80px;
+    padding: 80px;
     line-height: 150%;
 }
 
 .moduloizquierda {
-    position:relative;
-    display:flex;
+    position: relative;
+    display: flex;
     overflow: hidden;
     /* transform: translateX(px); */
     /* overflow: hidden; */
@@ -194,8 +200,8 @@ a:link {
 }
 
 .moduloderecha {
-    position:relative;
-    display:flex;
+    position: relative;
+    display: flex;
     overflow: hidden;
     /* overflow: hidden; */
     /* width: 200px; */
@@ -206,11 +212,9 @@ a:link {
 
 .imageflex {
     flex-shrink: 0;
-    flex-grow:0;
+    flex-grow: 0;
     height: auto;
 }
-
-
 
 .fondoconfigurador {
     color: #fff;
@@ -218,27 +222,30 @@ a:link {
 }
 
 .fondoconfigurador .texto {
-    padding:100px;
+    padding: 100px;
     line-height: 200%
 }
-
 
 .newsletter {
     padding: 90px 40px 40px 40px;
 }
 
 .galeria {
-    margin:50px 10px;
+    margin: 50px 10px;
 }
 
 .galeria-arriba {
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
 .galeria-abajo {
-    margin-top:15px;
+    margin-top: 15px;
 }
 
+.galeria-arriba:hover,
+.galeria-abajo:hover {
+    filter: blur(5px);
+}
 
 .fondoambiental {
     background-color: #beeadf;
@@ -254,14 +261,9 @@ a:link {
     margin: 40px 100px;
 }
 
-.navegacion {
-    border-left: #6f8794 1px solid
-}
-
 .gris_footer {
     color: #6f8794;
 }
-
 
 .gris_footer a,
 a:link {
@@ -281,8 +283,7 @@ a:link {
 .cajamiembros .der {
     float: left;
 }
+
 .copy {
     width: 100%;
-    
 }
-
